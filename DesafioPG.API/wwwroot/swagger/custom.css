@@ -1,0 +1,30 @@
+﻿body {
+    background-color: #ffffff;
+}
+
+.header-bar {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hcenter {
+    margin: 0;
+    position: relative;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+.swagger-ui .topbar-wrapper img {
+    content: url("../img/logo.png");
+}
+
+.swagger-ui .topbar .download-url-wrapper .select-label {
+    color: #3b4151;
+    font-family: sans-serif;
+}
+
+.swagger-ui .topbar {
+    background-color: #ffffff;
+}

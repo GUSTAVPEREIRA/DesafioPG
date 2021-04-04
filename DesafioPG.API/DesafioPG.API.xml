@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesafioPG.API</name>
+    </assembly>
+    <members>
+        <member name="T:DesafioPG.API.Controllers.MarvelController">
+            <summary>
+            Controller da API da marvel
+            </summary>
+        </member>
+        <member name="M:DesafioPG.API.Controllers.MarvelController.#ctor(DesafioPG.Services.IServices.IMarvelService,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Injeção de dependência
+            </summary>
+            <param name="marvelService"></param>
+            <param name="configuration"></param>
+            <param name="webHostEnvironment"></param>
+        </member>
+        <member name="M:DesafioPG.API.Controllers.MarvelController.WriteMarvelCharactersInFile(System.Int32,System.Int32)">
+            <summary>
+            Busca os personagens da marvel e os grava em um arquivo
+            </summary>
+            <param name="limit">Aceita valores de 20 a 100, caso seja informado valores discrepantes, será efetuado a busca pelo valor 20 ou 100</param>
+            <param name="offset">Navega pelas páginas</param>        
+            <returns></returns>
+        </member>
+        <member name="T:DesafioPG.API.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DesafioPG.API.Program.Main(System.String[])">
+            <summary>
+            Main
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:DesafioPG.API.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DesafioPG.API.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DesafioPG.API.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:DesafioPG.API.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DesafioPG.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:DesafioPG.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>        
+        </member>
+    </members>
+</doc>
